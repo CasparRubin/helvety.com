@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <main className="min-h-screen">
       <div className="max-w-5xl mx-auto px-6 py-20">
-        <header className="mb-24 text-center text-white">
+        <header className="mb-24 text-center">
           <Image
             src="/logo.svg"
             alt="Helvety logo"
@@ -18,8 +18,8 @@ export default function Home() {
             <span>Software and Apparel</span>
           </p>
         </header>
-        <div className="border-t border-white my-16" />
-        <div className="text-center text-white">
+        <div className="border-t border-black my-16" />
+        <div className="text-center">
           <p className="text-base md:text-lg">
             <a className="underline underline-offset-4 hover:no-underline" href="mailto:contact@helvety.com">contact@helvety.com</a>
           </p>
