@@ -19,8 +19,8 @@ export default function Home() {
             </p>
             <p className="text-sm md:text-base text-black/70">developed and designed in <span className="text-[#FF0000]">Switzerland</span></p>
           </div>
-          <div className="border-t border-black" />
-          <p className="text-base md:text-lg">contact@helvety.com</p>
+          <div className="border-t border-black/30" />
+          <p className="text-base md:text-lg text-black/50">contact@helvety.com</p>
         </div>
       </div>
     </main>

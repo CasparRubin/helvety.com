@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist } from "next/font/google";
+import { Geist, Lexend, Jost } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
 
@@ -8,6 +8,15 @@ const geistSans = Geist({
   subsets: ["latin"],
 });
 
+const lexend = Lexend({
+  variable: "--font-lexend",
+  subsets: ["latin"],
+});
+
+const jost = Jost({
+  variable: "--font-jost",
+  subsets: ["latin"],
+});
 
 export const metadata: Metadata = {
   title: "Helvety - Software and Apparel - Developed and Designed in Switzerland",
@@ -47,7 +56,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} antialiased`}>
+      <body className={`${jost.variable} ${lexend.variable} ${geistSans.variable} antialiased`}>
         {children}
         <Analytics />
       </body>
