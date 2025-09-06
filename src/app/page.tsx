@@ -4,25 +4,23 @@ export default function Home() {
   return (
     <main className="min-h-screen">
       <div className="max-w-5xl mx-auto px-6 py-20">
-        <header className="mb-24 text-center">
+        <div className="text-center space-y-12">
           <Image
             src="/logo_whiteBg.svg"
             alt="Helvety logo"
             width={4000}
             height={1000}
-            className="w-full h-auto mb-6"
+            className="w-full h-auto"
             priority
           />
-          <p className="mt-6 text-xl md:text-2xl leading-snug">
-            <span className="font-bold block">Swiss</span>
-            <span>Software and Apparel</span>
-          </p>
-        </header>
-        <div className="border-t border-black my-16" />
-        <div className="text-center">
-          <p className="text-base md:text-lg">
-            <a className="underline underline-offset-4 hover:no-underline" href="mailto:contact@helvety.com">contact@helvety.com</a>
-          </p>
+          <div className="space-y-2">
+            <p className="text-xl md:text-2xl leading-snug">
+              <span>Software and Apparel</span>
+            </p>
+            <p className="text-sm md:text-base text-black/70">developed and designed in <span className="text-[#FF0000]">Switzerland</span></p>
+          </div>
+          <div className="border-t border-black" />
+          <p className="text-base md:text-lg">contact@helvety.com</p>
         </div>
       </div>
     </main>

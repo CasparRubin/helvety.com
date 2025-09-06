@@ -10,12 +10,12 @@ const geistSans = Geist({
 
 
 export const metadata: Metadata = {
-  title: "Helvety — Swiss Software Engineering",
-  description: "Swiss Software and Apparel",
+  title: "Helvety - Software and Apparel - Developed and Designed in Switzerland",
+  description: "Helvety - Software and Apparel - Developed and Designed in Switzerland",
   metadataBase: new URL("https://helvety.com"),
   openGraph: {
-    title: "Helvety — Swiss Software Engineering",
-    description: "Swiss Software and Apparel",
+    title: "Helvety - Software and Apparel - Developed and Designed in Switzerland",
+    description: "Helvety - Software and Apparel - Developed and Designed in Switzerland",
     url: "https://helvety.com",
     siteName: "Helvety",
     locale: "en_US",
@@ -23,8 +23,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary",
-    title: "Helvety — Swiss Software Engineering",
-    description: "Swiss Software and Apparel",
+    title: "Helvety - Software and Apparel - Developed and Designed in Switzerland",
+    description: "Helvety - Software and Apparel - Developed and Designed in Switzerland",
     images: [
       {
         url: "/Identifier_whiteBg.png",
