@@ -15,6 +15,7 @@ export default function Home() {
             className="w-full max-w-3xl h-auto mb-24 mx-auto"
             sizes="(max-width: 768px) 90vw, (max-width: 1280px) 70vw, 960px"
             priority
+            fetchPriority="high"
           />
           <div className="space-y-2">
             <p className="text-xl md:text-2xl leading-snug">
