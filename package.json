@@ -7,7 +7,9 @@
     "dev": "npm run generate-version && next dev",
     "build": "npm run generate-version && next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint . --max-warnings 0",
+    "lint:fix": "eslint . --fix",
+    "type-check": "tsc --noEmit"
   },
   "dependencies": {
     "@fontsource-variable/public-sans": "^5.2.7",
