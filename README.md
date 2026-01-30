@@ -1,7 +1,7 @@
 # Helvety.com
 
-![Next.js](https://img.shields.io/badge/Next.js-16.0.8-black?style=flat-square&logo=next.js)
-![React](https://img.shields.io/badge/React-19.2.1-61DAFB?style=flat-square&logo=react)
+![Next.js](https://img.shields.io/badge/Next.js-16.1.6-black?style=flat-square&logo=next.js)
+![React](https://img.shields.io/badge/React-19.2.4-61DAFB?style=flat-square&logo=react)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?style=flat-square&logo=typescript)
 ![License](https://img.shields.io/badge/License-All%20Rights%20Reserved-red?style=flat-square)
 
@@ -21,8 +21,8 @@ The main Helvety website. Software and apparel designed and developed in Switzer
 
 This project is built with modern web technologies:
 
-- **[Next.js 16.0.8](https://nextjs.org/)** - React framework with App Router
-- **[React 19.2.1](https://react.dev/)** - UI library
+- **[Next.js 16.1.6](https://nextjs.org/)** - React framework with App Router
+- **[React 19.2.4](https://react.dev/)** - UI library
 - **[TypeScript](https://www.typescriptlang.org/)** - Type-safe JavaScript
 - **[Tailwind CSS](https://tailwindcss.com/)** - Utility-first CSS framework
 - **[shadcn/ui](https://ui.shadcn.com/)** - High-quality React component library
